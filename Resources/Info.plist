@@ -20,6 +20,8 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSCameraUsageDescription</key>
 	<string>MonAssiette utilise l'appareil photo pour prendre en photo vos repas et vos étiquettes nutritionnelles afin d'en estimer les valeurs.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
