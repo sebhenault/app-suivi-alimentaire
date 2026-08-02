@@ -7,9 +7,6 @@ DerivedData/
 xcuserdata/
 *.xcuserstate
 
-# XcodeGen génère ce fichier localement
-MonAssiette.xcodeproj/
-
 # macOS
 .DS_Store
 
