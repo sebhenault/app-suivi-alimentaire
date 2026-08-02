@@ -24,6 +24,12 @@ valeurs nutritionnelles, on ajuste, et tout est enregistré dans un journal comp
 ## Prérequis
 
 - Un **Mac** avec **Xcode 15+**.
+  - Sur **macOS Ventura (13)**, installez **Xcode 15.2** (dernier compatible Ventura,
+    SDK iOS 17.2 — SwiftData inclus) depuis
+    [developer.apple.com/download/all](https://developer.apple.com/download/all/),
+    pas depuis le Mac App Store.
+  - iPhone en **iOS 18** + Xcode 15.2 : si Xcode affiche *« device support files
+    not found »*, ajoutez les fichiers *DeviceSupport* d'iOS 18 (procédure fournie sur demande).
 - Un **compte développeur Apple** (pour installer sur l'iPhone au-delà de 7 jours).
 - Une **clé API Claude** : https://console.anthropic.com → *API Keys*.
 - **XcodeGen** (génère le projet Xcode à partir de `project.yml`) :

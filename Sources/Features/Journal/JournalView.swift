@@ -140,7 +140,7 @@ struct MealRow: View {
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.accentColor.opacity(0.15))
                 .frame(width: 52, height: 52)
-                .overlay(Image(systemName: meal.type.systemImage).foregroundStyle(.accent))
+                .overlay(Image(systemName: meal.type.systemImage).foregroundStyle(.tint))
         }
     }
 }

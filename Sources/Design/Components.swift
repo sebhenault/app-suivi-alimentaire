@@ -84,7 +84,7 @@ struct StatChip: View {
     var body: some View {
         VStack(spacing: 4) {
             Image(systemName: systemImage)
-                .foregroundStyle(.accent)
+                .foregroundStyle(.tint)
             Text(value).font(.headline)
             Text(label).font(.caption2).foregroundStyle(.secondary)
         }
