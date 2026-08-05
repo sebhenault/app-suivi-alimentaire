@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+  <title>MonAssiette</title>
+  <meta name="description" content="Suivi alimentaire par photo, estimé par IA." />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <meta name="theme-color" content="#2ea05c" />
+
+  <!-- iOS : mode application plein écran -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MonAssiette" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <nav id="tabbar">
+    <button class="tab" data-tab="journal"><span class="ic">📓</span><span>Journal</span></button>
+    <button class="tab" data-tab="history"><span class="ic">📊</span><span>Historique</span></button>
+    <button id="fab" aria-label="Ajouter un repas">＋</button>
+    <button class="tab" data-tab="goals"><span class="ic">🎯</span><span>Objectifs</span></button>
+    <button class="tab" data-tab="settings"><span class="ic">⚙️</span><span>Réglages</span></button>
+  </nav>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
