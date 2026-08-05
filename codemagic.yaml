@@ -56,7 +56,7 @@ workflows:
         #   - Famille
       email:
         recipients:
-          - supprime@example.com
+          - votre-email@example.com   # <-- remplacez par votre e-mail (non commité en clair)
         notify:
           success: true
           failure: true
