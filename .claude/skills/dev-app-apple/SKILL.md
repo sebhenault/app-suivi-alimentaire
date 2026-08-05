@@ -11,9 +11,8 @@ description: >-
   ou celui de sa famille ; choisir entre app native et PWA ; contourner un Mac trop
   vieux ou l'absence de Mac ; gérer une clé API (ex. Claude) dans une app perso ; ou
   publier une app sans passer par l'App Store. Trigger aussi sur : iOS app, iPhone app,
-  application iPhone, app native, SwiftUI, Xcode, TestFlight, PWA, « écran d'accueil »,
-  « installer sur iPhone », Codemagic, GitHub Pages — même si les mots « Apple » ou
-  « skill » ne sont pas prononcés.
+  application iPhone, app native, SwiftUI, Xcode, TestFlight, PWA, « installer sur iPhone »,
+  Codemagic, GitHub Pages — même si le mot « Apple » n'est pas prononcé.
 ---
 
 # Développement d'app Apple (usage personnel / familial)
