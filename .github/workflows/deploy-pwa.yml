@@ -3,7 +3,7 @@ name: Déployer la PWA sur GitHub Pages
 on:
   push:
     branches:
-      - claude/iphone-food-tracking-app-qrtqz3
+      - main
     paths:
       - "pwa/**"
       - ".github/workflows/deploy-pwa.yml"
